@@ -28,7 +28,7 @@ ZipifyPlugin.prototype.apply = function(compiler) {
             
             const source = compilation.assets[nameAndPath].source()
             const zip = new JSZip()
-            zip.file(path.basename(nameAndPath), source)
+            zip.file(options.zippedFileName || path.basename(nameAndPath), source)
             const zipContents = await zip.generateAsync({ type: 'nodebuffer' })
 
 			const outputPath = options.path || compilation.options.output.path
