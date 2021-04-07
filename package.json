@@ -1,0 +1,14 @@
+{
+  "name": "@edudo/zipify-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Webpack plugin to zip every output file in it's archive",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-sources": "*"
+  },
+  "dependencies": {
+    "jszip": "^3.6.0"
+  }
+}
