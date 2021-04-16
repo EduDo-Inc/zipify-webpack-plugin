@@ -1,8 +1,9 @@
 ### Zipify files produced by webpack
 Motivation: build AWS lambdas directly into .zip archives
 ## Installation
-```bash
-yarn add -D zipify-webpack-plugin
+Package is [available](https://www.npmjs.com/package/@edudo/zipify-webpack-plugin) on npm
+```
+yarn add -D @edudo/zipify-webpack-plugin
 ```
 ## Usage example
 This is example of webpack.config.js for using this plugin with typescript
